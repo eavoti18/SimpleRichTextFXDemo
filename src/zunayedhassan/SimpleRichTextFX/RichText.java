@@ -44,10 +44,10 @@ public class RichText extends VBox {
     
     protected int currentSelectedLine = -1;
     
-    protected MenuItem cutMenuItem = new MenuItem("Cut", this._getIcon("icons/edit-cut.png"));
-    protected MenuItem copyMenuItem = new MenuItem("Copy", this._getIcon("icons/edit-copy.png"));
-    protected MenuItem pasteMenuItem = new MenuItem("Paste", this._getIcon("icons/edit-paste.png"));
-    protected MenuItem selectAllMenuItem = new MenuItem("Select All", this._getIcon("icons/edit-select-all.png"));
+    protected MenuItem cutMenuItem = new MenuItem("Cut", this._getIcon("icons/NewIconsPNG/CutIcon.png")); //************ P2
+    protected MenuItem copyMenuItem = new MenuItem("Copy", this._getIcon("icons/NewIconsPNG/CopyIcon.png")); //************ P2
+    protected MenuItem pasteMenuItem = new MenuItem("Paste", this._getIcon("icons/NewIconsPNG/PasteIcon.png")); //************ P2
+    protected MenuItem selectAllMenuItem = new MenuItem("Select All", this._getIcon("icons/NewIconsPNG/SelectIcon.png")); //************ P2
     
     protected ContextMenu contextMenu = this._getContextMenu();
     

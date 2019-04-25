@@ -38,15 +38,15 @@ public class RootUI extends BaseUI {
     protected ScrollPane scrollPane = null;
     protected ComboBox<String> fontsCombobox = this._getFontsCombobox();
     protected ComboBox<String> fontSizeComboBox = this._getFontSizeComboBox();
-    protected ToggleButton boldToggleButton = this._getIconToggleButton("SimpleRichTextFX/icons/format-text-bold.png");
-    protected ToggleButton italicToggleButton = this._getIconToggleButton("SimpleRichTextFX/icons/format-text-italic.png");
-    protected ToggleButton underlineToggleButton = this._getIconToggleButton("SimpleRichTextFX/icons/format-text-underline.png");
-    protected ToggleButton strikethroughToggleButton = this._getIconToggleButton("SimpleRichTextFX/icons/format-text-strikethrough.png");
-    protected Button leftJustfyToggleButton = this._getIconButton("SimpleRichTextFX/icons/format-justify-left.png");
-    protected Button centerJustfyToggleButton = this._getIconButton("SimpleRichTextFX/icons/format-justify-center.png");
-    protected Button rightJustfyToggleButton = this._getIconButton("SimpleRichTextFX/icons/format-justify-right.png");
-    protected ColorPicker fontColorPicker = new ColorPicker(Color.BLACK);
-    protected ToggleButton spellCheckToggleButton = this._getIconToggleButton("SimpleRichTextFX/icons/tools-check-spelling.png");
+    protected ToggleButton boldToggleButton = this._getIconToggleButton("SimpleRichTextFX/icons/NewIconsPNG/Bicon.png"); //************ P2
+    protected ToggleButton italicToggleButton = this._getIconToggleButton("SimpleRichTextFX/icons/NewIconsPNG/Iicon.png"); //************ P2
+    protected ToggleButton underlineToggleButton = this._getIconToggleButton("SimpleRichTextFX/icons/NewIconsPNG/Uicon.png"); //************ P2
+    protected ToggleButton strikethroughToggleButton = this._getIconToggleButton("SimpleRichTextFX/icons/NewIconsPNG/Sicon.png"); //************ P2
+    protected Button leftJustfyToggleButton = this._getIconButton("SimpleRichTextFX/icons/NewIconsPNG/ALicon.png"); //************ P2
+    protected Button centerJustfyToggleButton = this._getIconButton("SimpleRichTextFX/icons/NewIconsPNG/ACicon.png"); //************ P2
+    protected Button rightJustfyToggleButton = this._getIconButton("SimpleRichTextFX/icons/NewIconsPNG/ARicon.png"); //************ P2
+    protected ColorPicker fontColorPicker = new ColorPicker(Color.BLACK); //************ P2
+    protected ToggleButton spellCheckToggleButton = this._getIconToggleButton("SimpleRichTextFX/icons/NewIconsPNG/SCicon.png"); //************ P2
     
     public RootUI() {    
         this._initializeLayout();
